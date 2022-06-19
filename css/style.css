@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    /* background-position: rig; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar .collapse .nav-link:hover{
+    color: #ffc107 !important;
+}
+.navbar form{
+    /* border: 1px solid orangered; */
+    border-radius: 5px;
+    outline: none !important;
+
+}
+
+
+.navbar .form-control{
+    margin-right: 0 !important;
+    border: none !important;
+    border-radius: 5px 0 0 5px;
+    outline: none !important;
+    outline-style: none;
+}
+.form-control:focus{
+    border: none !important;
+    outline: none !important;
+    outline-style: none !important;
+    box-shadow: none !important;
+
+}
+.navbar form button{
+    border: none !important;
+    margin-left: 0px;
+    background-color: #ffc107;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0px 50px!important;
+    /* outline: none !important; */
+}
+.navbar form button:hover{
+    color: white;
+}
+/* landing */
+
+.landing h1{  
+    font-size: 50px !important;
+    letter-spacing: 2px;
+}
+.landing h2{
+    font-size: 80px !important;
+}
+
